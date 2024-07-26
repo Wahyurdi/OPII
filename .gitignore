@@ -1,0 +1,9 @@
+git branch
+git stash
+git pull origin main
+# Selesaikan konflik jika ada
+git add .
+git commit -m "Resolve merge conflict"
+git push origin main
+# Jika masih gagal, gunakan force push dengan hati-hati
+git push origin main --force
